@@ -1,0 +1,84 @@
+.showbox{
+    width: 1200px;
+    height: 260px;
+    margin: 0 auto;
+
+}
+.showbox li{
+    width: 133px;
+    height: 260px;
+    float: left;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.oneshow{
+    background: url("../images/s1.jpg");
+}
+.twoshow{
+    background: url("../images/s2.jpg");
+}
+.threeshow{
+    background: url("../images/s3.jpg");
+}
+.fourshow{
+    background: url("../images/s4.jpg");
+}
+.fiveshow{
+    background: url("../images/s5.jpg");
+}
+.sixshow{
+    background: url("../images/s6.jpg");
+}
+.elevenshow{
+    background: url("../images/s7.jpg");
+}
+.active1{
+    width: 400px !important;
+}
+.showbox li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    border-top: 1px solid transparent;
+}
+.showbox li a span{
+    display: block;
+    font-size: 30px;
+    color: #ffffff;
+    width: 30px;
+    margin: 30px auto;
+}
+.showboxsamll{
+    width: 1200px;
+    height: 52px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.showboxsamll div{
+    width: 180px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 40px;
+}
+.showboxsamll div em{
+    font-style: normal;
+}
+.showboxsamll div i{
+    display: inline-block;
+    width:14px;
+    height: 12px;
+    background: url("../images/icon_03.png") no-repeat;
+    vertical-align: -2px;
+    margin-right: 5px;
+}
+.showboxsamll div a:hover{
+    color: #3377dd;
+}
+.bigbox{
+    height: 350px;
+    overflow: hidden;
+}

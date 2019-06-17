@@ -1,0 +1,322 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #333333;
+}
+.App{
+  width: 1348px;
+  height: 75px;
+  position: relative;
+}
+.App-header{
+  width: 1200px;
+  height: 61px;
+  margin: 0 auto;
+  padding-top: 14px;
+}
+.App-header ul{
+  width: 1200px;
+  height: 75px;
+  margin: 0 auto;
+}
+.App-header ul li{
+  float: left;
+}
+.logo{
+  width: 114px;
+  height: 50px;
+  background: url("./images/icon201706.png") no-repeat -660px 0;
+  text-indent: -999px;
+  margin-right: 234px;
+}
+.listtop{
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 5px;
+
+}
+.listtop:hover{
+  color: #ff6c67;
+}
+.language span:hover{
+  color: #ff6c67;
+}
+.language div a:hover{
+  color: #ff6c67;
+}
+.language{
+  font-size: 12px;
+  border: 1px solid transparent;
+  padding: 0 10px 0 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 14px;
+  left: 646px;
+  background: #ffffff;
+  z-index: 999;
+}
+.language span i{
+display: inline-block;
+  width: 12px;
+  height: 6px;
+  background: url("./images/icon201706.png") no-repeat -357px -795px;
+  text-indent: -999px;
+ vertical-align: -5px;
+}
+.language div{
+ font-size: 12px;
+}
+.small{
+  height: 40px;
+}
+.small i{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.applets{
+  margin-left: 173px;
+}
+.applets i{
+  text-indent: -999px;
+  background: url("./images/icon201706.png") no-repeat -127px -763px;
+  vertical-align: -5px;
+  margin-right: 10px;
+}
+.applets span{
+  display: inline-block;
+  width: 100px;
+  font-size: 14px;
+  color: #08ba04;
+}
+.phone i{
+  text-indent: -999px;
+  background: url("./images/com_icon01.gif") no-repeat;
+  vertical-align: -5px;
+  margin-right: 10px;
+}
+.phone span{
+  display: inline-block;
+  width: 100px;
+  font-size: 14px;
+  color: #ff6c67;
+}
+.telpho i{
+  text-indent: -999px;
+  background: url("./images/icon201706.png") no-repeat -43px -763px;
+  vertical-align: -5px;
+  margin-right: 10px;
+}
+.telpho span{
+  display: inline-block;
+  width: 100px;
+  font-size: 12px;
+  color: #cccccc;
+}
+.telpho em{
+  font-size: 18px;
+  color: #ab7cc8;
+}
+.applets div{
+  width: 255px;
+  height: 120px;
+  background: url("./images/icon201706.png") no-repeat -379px -170px;
+  position: absolute;
+  top: 64px;
+  left: 763px;
+  display: none;
+z-index: 999;
+}
+.phone div{
+  width: 219px;
+  height: 110px;
+  background: url(./images/icon201706.png) no-repeat -464px -55px;
+  position: absolute;
+  top: 73px;
+  left: 927px;
+  border: 1px solid #cccccc;
+  display: none;
+  z-index: 999;
+
+}
+.telpho div{
+  width: 150px;
+  height: 74px;
+  border: 1px solid #cccccc;
+  position: absolute;
+  top: 73px;
+  left: 1106px;
+  padding-top: 10px;
+  padding-left: 20px;
+  display: none;
+  background: #ffffff;
+  z-index: 999;
+}
+.telpho div p{
+  font-size: 12px;
+}
+.yuyan{
+  width: 50px;
+  display: none;
+}
+.navbar{
+  width: 100%;
+  height: 40px;
+  background: #2064c8;
+}
+.navbox{
+  width: 1220px;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+.navbox li{
+  float: left;
+  height: 40px;
+  color: #fff;
+  border-left: 1px solid #3774ce;
+  border-right: 1px solid #3774ce;
+}
+.navbox li a{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #fff;
+}
+.active{
+  background: #003679;
+}
+.navbox li a:hover{
+  background: #0053ac;
+}
+.longin{
+  float: right !important;
+}
+.longin a:hover{
+  background: #003679 !important;
+  color: #fff544;
+}
+.hotel i{
+  display: inline-block;
+  width: 39px;
+  height: 20px;
+  z-index: 999;
+  position: absolute;
+  left: 181px;
+  top: -9px;
+  background: url("./images/icon201706.png") no-repeat -540px -29px;
+}
+.fly i{
+  display: inline-block;
+  width: 39px;
+  height: 20px;
+  z-index: 999;
+  position: absolute;
+  left: 300px;
+  top: -9px;
+  background: url("./images/icon201706.png") no-repeat -589px -29px;
+}
+.logindiv{
+  width: 208px;
+  height: 280px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  display: none;
+  z-index: 9999;
+}
+.logindiv button{
+  display: block;
+  width: 180px;
+  height: 34px;
+  color: #fff;
+  background: #ff8800;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+.logindiv button:hover{
+  background: #ee6600;
+}
+.logindiv ul{
+  margin-left: 10px;
+}
+.logindiv ul li{
+  float: left;
+  padding: 5px;
+  border: none;
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.logindiv ul li p{
+  font-size: 12px;
+}
+.logindiv ul li span{
+  margin-left: 10px;
+  display: block;
+  height: 33px;
+  width: 33px;
+  background: url("./images/icon201706.png") no-repeat;
+}
+.logindiv ul li:hover p{
+  color: #5388cc;
+}
+.one{
+  background-position:-159px -683px !important;
+}
+.one:hover{
+  background-position:0px -683px !important;
+}
+.two{
+  background-position:-222px -683px !important;
+}
+.two:hover{
+  background-position:-54px -683px !important;
+}
+.three{
+  background-position:-159px -628px !important;
+}
+.three:hover{
+  background-position:0 -628px !important;
+}
+.four{
+  background-position:-221px -628px !important;
+}
+.four:hover{
+  background-position:-54px -628px !important;
+}
+.five{
+  background-position:-287px -628px !important;
+}
+.five:hover{
+  background-position:-108px -628px !important;
+}
+.six{
+  background-position:-159px -572px !important;
+}
+.six:hover{
+  background-position:0 -572px !important;
+}
+.eleven{
+  background-position:-286px -572px !important;
+}
+.eleven:hover{
+  background-position:-107px -572px !important;
+}
+.eight{
+  background-position:-286px -682px !important;
+}
+.eight:hover{
+  background-position:-107px -682px !important;
+}
